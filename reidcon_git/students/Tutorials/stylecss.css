@@ -1,0 +1,125 @@
+*{
+    padding:0;
+    margin-top:0;
+    box-sizing:border-box;
+    font-family:calibri,sans-serif;
+}
+
+.displaying-page{
+    width:100%;
+    background-color:none;
+}
+
+
+h3 {
+    text-align: center;
+    margin-top:2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Buttton Designs */
+.button {
+    background-color: #f2f2f2;
+    border: 2px solid #339ff7;
+    color: #339ff7;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    z-index: 1;
+    height: 40px;
+}
+
+.button:hover {
+    background-color: #339ff7;
+    border: 2px solid #339ff7;
+    color: #f2f2f2;
+}
+
+
+.button-allign {
+    text-align: center;
+}
+
+
+/*form*/
+.form-box{
+    padding:1rem 1rem 1rem 1rem ;
+    width:45%;
+    margin-left: 22.5%;
+    margin-top: 5%;
+    background: whitesmoke;
+    border: 0.2rem solid #339ff7;
+    border-radius: 2rem;
+}
+
+
+.content {
+    width:50%;
+    height:2.1rem;
+    border:0.05rem solid #696969;
+    background-color: rgb(222, 225, 226);
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+    margin-left: 25%;
+    padding-left: 0.3rem;
+    padding-bottom: 2rem;
+
+}
+
+.content label{
+    position:absolute;
+    font-size:1rem;
+    padding: 0.5rem;   
+}
+
+.option label {
+    position: relative;
+    height:100%;
+    color:rgb(0, 0, 0);
+    font-size: 1rem;
+    border :2px solid rgb(133, 132, 132);
+    padding:5px 15px;
+    align-items: center;
+    cursor:pointer;
+    float: right;
+}
+
+/*number*/
+input[type="number"]{
+    width: 4rem; 
+    height: 2rem;
+    float: right;
+    align-content: center;
+}
+
+
+select {
+    margin-bottom: 40px;
+    margin-left: 10px;
+    height:2rem;
+}
+
+/*
+.option label {
+    position: relative;
+    color:rgb(0, 0, 0);
+    font-size: 1rem;
+    border :2px solid rgb(155, 38, 38);
+    border-radius: 1rem;
+    padding:10px 50px;
+    align-items: center;
+    cursor:pointer;
+    margin-right: 40px;
+
+*/

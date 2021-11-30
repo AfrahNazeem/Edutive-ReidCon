@@ -1,0 +1,135 @@
+* {    
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  font-family:calibri,sans-serif;
+}
+
+.main {
+  display:flex;
+}
+
+.displaying-page{
+  width:84%;
+  display:flex;
+  background-color:#fab5b5;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+button {
+    background-color:#FECCA8;
+    color: black;
+    padding:14px 20px;
+    margin:8px 0;
+    border:none;
+    cursor:pointer;
+    width:auto;
+    display: block;
+    border-radius: 20px;
+}
+
+button:hover {
+    opacity:0.8;
+    background-color:#ffa464;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding:10px 20px;
+  }
+
+.loginbox{
+    width:350px;
+    height:auto;
+    background:#339ff7;
+    color:#000;
+    top:60%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing:border-box;	
+    padding:70px 30px;
+}
+
+h1{
+	margin:0;
+	padding: 0 0 20px;
+	text-align:center;
+	font-size:22px;
+}
+
+h2 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(194, 191, 191);
+    box-sizing: border-box;
+  }
+
+  span.pwd {
+    display: block;
+    float: none;
+  }
+
+.avatar {
+
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    position:absolute;
+    top:-50px;
+    left:calc(50% - 50px);
+}
+
+.content {
+  width:100%;
+  height:2.3rem;
+  border:0.2rem solid #890000;
+  background-color: rgb(222, 225, 226);
+  margin-top: 0.2rem;
+  margin-bottom: 1rem;
+  padding-left: 0.3rem;
+  padding-bottom: 2rem;
+}
+
+.content label{
+  position:absolute;
+  font-size:1rem;
+  padding: 0.5rem; 
+    
+}
+
+/*checkbox*/
+input[type="checkbox"]{
+  width: 1rem; 
+  height: 1rem;
+  cursor:pointer;
+}
+
+.checkbox {    
+  float: right;
+  height:2.1rem;
+  width: 7%;
+  color:rgb(0, 0, 0);
+  font-size: 1rem;
+  border :2px solid rgb(155, 38, 38);
+  padding:0.5rem 0.5rem;
+  align-items: center;
+  cursor:pointer;
+  text-align: center;
+}

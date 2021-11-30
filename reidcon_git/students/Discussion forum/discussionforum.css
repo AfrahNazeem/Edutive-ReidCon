@@ -1,0 +1,72 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:calibri,sans-serif;
+}
+
+.displaying-page{
+    width:100%;
+    border-radius: none;
+    display:auto;
+    box-align:center;
+}
+
+.form-box{
+    padding:1rem 1rem 1rem 1rem ;
+    width:60%;
+    margin-left: 20%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    background: whitesmoke;
+    border: 0.2rem solid #339ff7;
+    border-radius: 2rem;
+    align-content:center;
+}
+
+.form-box h3{
+    padding-bottom: 2rem;
+}
+
+.form-box textarea{
+    width:100%;
+    height:10rem;
+    border:0.2rem solid #339ff7;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding-left: 0.3rem;
+    resize: none;
+}
+
+/* Buttton Designs */
+.button {
+    background-color: #f2f2f2;
+    border: 2px solid #339ff7;
+    color: #339ff7;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    z-index: 1;
+    height: 40px;
+}
+
+.button:hover {
+    background-color: #339ff7;
+    border: 2px solid #339ff7;
+    color: #f2f2f2;
+}
+
+.button-allign {
+    text-align: center;
+}
+
+
+
+

@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="navigation.css">
+    </head>
+    <body>
+        <nav class="sidenavigation">
+            <ul>
+                <li><a href="#" class="subjects-btn">Subjects
+                    <span class="fas fa-caret-down"></span>
+                </a>
+                <ul class="subjects-show">
+                    <li><a href="#">Chemistry</a></li>
+                    <li><a href="#">Physics</a></li>
+                    <li><a href="#">Biology</a></li>
+                    <li><a href="#">Accounting</a></li>
+                    <li><a href="#">Economics</a></li>
+                </ul>
+                </li>
+
+                <li><a href="#">Q/A section</a></li>
+                <li><a href="#">Exam papers</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Quiz</a></li>
+                <li><a href="#">Leaderboard</a></li>
+            </ul>
+        </nav>
+
+        <script>
+            $('.subjects-btn').click(function(){
+                $('nav ul .subjects-show').toggleClass("");
+
+            });
+        </script>
+    </body>
+</html>

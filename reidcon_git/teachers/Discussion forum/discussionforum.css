@@ -1,0 +1,141 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:calibri,sans-serif;
+}
+
+.main{
+    display: flex;
+}
+
+.displaying-page{
+    width:100%;
+    border-radius: none;
+    display:auto;
+    background-color:none;
+    box-align:center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.center a {
+    background-color:#890000;
+    color: rgb(255, 255, 255);
+    padding:14px 20px;
+    margin:8px 0;
+    border:none;
+    cursor:pointer;
+    width:auto;
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+.side-menu{
+    width:16%;
+    min-height:100vh;
+    background:#fff6f6;
+}
+
+.side-menu ul{
+    margin-top:1.2rem;
+    list-style:none;
+}
+
+.side-menu ul li{
+    font-size: 1.5rem;
+    padding:0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem; 
+}
+
+
+.form-box{
+    padding:1rem 1rem 1rem 1rem ;
+    width:60%;
+    margin-left: 20%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    background: whitesmoke;
+    border: 0.2rem solid #339ff7;
+    border-radius: 2rem;
+    align-content:center;
+    
+}
+
+.form-box h2{
+    padding-bottom: 2rem;
+}
+
+.form-box textarea{
+    width:100%;
+    height:10rem;
+    border:0.2rem solid #339ff7;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding-left: 0.3rem;
+    resize: none;
+}
+
+.form-box button{
+    width:20%;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    border:0.2rem solid #339ff7;
+    font-size: medium;
+    padding:10px 15px;
+    cursor:pointer;
+    margin-bottom: 2rem;
+    margin-right: 40%;
+    margin-left: 40%;
+}
+
+.review {
+    width:60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    border:0.2rem solid #339ff7;
+    margin-bottom: 1rem;
+    margin-right: 20%;
+    margin-left: 20%;
+    vertical-align: auto;
+    
+}
+
+.content h5{
+    text-align: center;
+    padding: 10px;
+}
+
+.content p{
+    width:100%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.form-box label{
+    font-size:1rem;
+}
+
+button:hover {
+    opacity:0.8;
+    background-color: #339ff7;
+    color:rgb(255, 255, 255);
+}
+
+
